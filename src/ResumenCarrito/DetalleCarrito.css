@@ -1,0 +1,29 @@
+.detalle-carrito-envio{
+
+        display: flex;
+        flex-direction: row;
+            
+}
+.productos-detalle-carrito-envio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+@media (max-width: 1000px){
+
+    .detalle-carrito-envio{
+
+        display: flex;
+        flex-direction: column;
+}
+.grupo-contacto{
+     display: flex;
+        flex-direction: column;
+}
+.boton-compra{
+margin-left: 0% !important;}
+}
+.metodos-pagos{
+    width: 350px ;
+}

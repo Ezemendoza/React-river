@@ -1,0 +1,33 @@
+
+.input-descuento		  { 
+  position:relative; 
+  margin-bottom:45px; 
+}
+.input-codigo 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus { outline:none; }
+
+.label-codigo {
+  color:#999; 
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all; 
+  -moz-transition:0.2s ease all; 
+  -webkit-transition:0.2s ease all;
+}
+
+
+.input-codigo:focus ~ .label-codigo	{
+  top:-20px;
+}
+

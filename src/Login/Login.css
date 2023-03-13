@@ -1,0 +1,7 @@
+.iniciar-Sesion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }

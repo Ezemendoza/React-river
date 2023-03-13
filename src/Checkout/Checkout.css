@@ -1,0 +1,83 @@
+.boton-compra {
+    min-width: 130px;
+    height: 40px;
+    width: 283px;
+    color: #fff;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    top: 2px;
+    left: 2px;
+    background-color: #000;
+    text-decoration: none;
+    margin-left: 42px;
+    
+  }
+  a{
+    text-decoration: none;
+  }
+  .boton-compra:hover {
+    opacity: 80%;
+    color: #3f3f40;
+  }
+  .boton-compra:after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    transition: 0.2s;
+    background-color: #000;
+    text-decoration:none;
+  }
+  .texto-boton{
+    text-align: left;
+    font-size: 20px;
+  }
+.texto-checkout{
+  width: 40%;
+}
+  .check{
+    width: 1000%;
+  }
+  .columnas-checkout{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  .img-check{
+    width: 100%;
+  }
+  .texto-boton-checkout{
+    margin-bottom: 1px;
+  }
+.item-counter{
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 1000px){
+    .img-check{
+      width: 200%;
+    }
+.texto-checkout{
+  margin-left: 30px;
+  width: 100%;
+}
+.boton-compra{
+  width: 50%;
+}
+.item-counter{
+  width: 100%;
+}
+    }

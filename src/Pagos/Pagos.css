@@ -1,0 +1,59 @@
+.div-contacto{
+    display: flex;
+    flex-direction: column;
+
+}
+.informacion-pagos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.grupo-contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.input-calle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.division-entregas{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+.grupo-contacto-checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 120px;
+}
+
+@media (max-width: 1000px){
+
+    .detalle-carrito-envio{
+
+        display: flex;
+        flex-direction: column;
+}
+.grupo-contacto{
+     display: flex;
+        flex-direction: column;
+}
+.division-entregas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grupo-contacto-checkbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+}
+}
